@@ -14,6 +14,7 @@ add_library(kaikosdk SHARED ${Sources} )
 target_include_directories(kaikosdk PUBLIC ${PROJECT_SOURCE_DIR}) #include headers on export
 set_target_properties(kaikosdk PROPERTIES OUTPUT_NAME "kaikopbsdk")
 
+set_target_properties(kaikosdk PROPERTIES CXX_STANDARD 11) # protobuf requirement
 set_target_properties(kaikosdk PROPERTIES LINKER_LANGUAGE CXX)
 
 # IDEs should put the headers in a nice place
