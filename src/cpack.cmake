@@ -15,7 +15,6 @@ set( CPACK_COMPONENT_kaikosdk_DISPLAY_NAME "kaiko-cpp-sdk" )
 set( CPACK_COMPONENT_kaikosdk_REQUIRED 1 )
 
 set( CPACK_INCLUDE_TOPLEVEL_DIRECTORY 1 )
-set( CPACK_PACKAGE_RELEASE 1 )
 
     if ( "${CPACK_PACKAGE_ARCHITECTURE}" STREQUAL "" )
         # Note: the architecture should default to the local architecture, but it

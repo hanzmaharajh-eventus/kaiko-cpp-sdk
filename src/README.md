@@ -3,5 +3,5 @@
     cd src
     mkdir build
     cd build
-    cmake ..
+    cmake .. -DCPACK_PACKAGE_RELEASE=<release number>
     cpack -G RPM
